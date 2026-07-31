@@ -1,7 +1,26 @@
 aid: nuvia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nuvia.png
 name: Nuvia
-description: Nuvia is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nuvia was a semiconductor startup founded in 2019 to design high-performance,
+  energy-efficient Arm-based CPU cores for data-center and client computing, backed by Mayfield
+  among other investors. Qualcomm acquired Nuvia in 2021 and its core technology became the
+  Qualcomm Oryon CPU. Nuvia has no independent developer, API, or product surface today; its
+  former site nuviainc.com now redirects to qualcomm.com. Retained in the API Evangelist network
+  as a VC-portfolio identity record rather than an active API provider.
+x-status: acquired
+x-acquired-by: qualcomm
+x-website-probe: 'nuviainc.com -> https://www.qualcomm.com/ (HTTP 302), checked 2026-07-20'
 url: https://raw.githubusercontent.com/api-evangelist/nuvia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,7 +33,17 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- CPU
+- Arm
+- Hardware
+- Acquired
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
